@@ -1,7 +1,7 @@
 This is the final project of my "Optimization for Data Science" course. 
 In this project I implement and test several gradient-based optimization algorithms for a semi-supervised learning problem.
-Before delving into the code, I recommend reading the report first, which contains important information about the cost function we used.
-The most interesting aspect of this project is that since the cost function is LCG (Lipschitz Continuos Gradient), using the Lipschitz constant
+Before delving into the code, I recommend reading the report first, which contains important information about the Loss Function we used.
+The most interesting aspect of this project is that since the Loss Function is LCG (Lipschitz Continuos Gradient), using the Lipschitz constant
 as a fixed learning rate, I was able to obtain optimal convergence rates for the implemented algorithms.
 Considering my background in applied mathematics, this was undoubtedly the most fun and interesting project I have worked on, 
 and I sincerely hope to work on more similar projects in the future!
