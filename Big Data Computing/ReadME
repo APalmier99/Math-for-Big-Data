@@ -4,14 +4,5 @@ The first assignment is a light introduction to PySpark, while the second assign
 Specifically, in the second homeowrk I implemented the kCenterOut algorithm, a modified version of k-Center that aims to account for the presence of outliers.
 In the final project instead, I implemented a 2-Round Map Reduce version of kCenterOut, to make it scalable and suitable for Big Data scenarios as well.
 
-Specifically, the 2-Round Map Reduce version implements a coreset-based approach:
-- Round 1: we extract a coreset from each partition by performing the Farthest First Traversal. We then merge all coresets togheter;
-- Round 2: we execute kCenterOut on the set obtained from the previous round.
-
 The implementation of kCenterOut is highly optimized using numpy. 
-In particular, replacing loops with masking conditions on numpy boolen arrays greatly improved the performances of the algorithm. 
-
-Interestingly, we observed that increasing the number of partitions improves both accuracy and computation time as well, as expected. 
-We also note that for each execution, the first round weighs the most on the computation time, because of the FFT.
-In this sense, increasing the number of partitions means running the FFT on smaller subsets, thus achieving higher accuracies and faster performances. 
-In particular, the coreset approach allowed the algorithm to be run on a dataset with more than 1 million points in reasonable times.
+In particular, replacing loops with masking conditions on numpy boolen arrays greatly improved the performances of the algorithm.
