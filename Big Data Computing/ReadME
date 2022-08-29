@@ -1,7 +1,7 @@
 In this folder you will find my assignments and final project from the Big Data Computing course.
 During the course we looked in detail at several clustering algorithms and this is basically the topic of this folder.
 The first assignment is a light introduction to PySpark, while the second assignment and the final project focus on the k-Center clustering algorithm.
-Specifically, in the second homeowrk I implemented the kCenterOut algorithm, a modified version of k-Center that aims to account for the presence of outliers.
+Specifically, in the second homework I implemented the kCenterOut algorithm, a modified version of k-Center that aims to account for the presence of outliers.
 In the final project instead, I implemented a 2-Round Map Reduce version of kCenterOut, to make it scalable and suitable for Big Data scenarios as well.
 
 The implementation of kCenterOut is highly optimized using numpy. 
