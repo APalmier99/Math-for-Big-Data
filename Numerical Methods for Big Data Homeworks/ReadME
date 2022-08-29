@@ -1,1 +1,6 @@
-
+This folder contains assignments from my course "Mathematical Models and Numerical Methods for Big Data", 
+which delved into some powerful Numerical Linear Algebra techniques for handling Big Data.
+The course was one of the best I have ever taken and I am sorry that these assignments do not fully reflect that.
+They are rather haphazard, missing some of the details, and this honestly bothers me.
+Time permitting, I will return to these files to add some detailed theoretical explanation and to experiment with some clustering algorithms.
+For now, unfortunately, this is the current state of affairs.
