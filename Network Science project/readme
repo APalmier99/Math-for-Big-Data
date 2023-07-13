@@ -1,1 +1,16 @@
-
+This project focused on analyzing the network structure of Reddit and the interactions among subreddits during the 2016-2017 period,
+which was significant due to the election of Donald Trump as President of the United States.
+The goal was to uncover changes in subreddit interactions, particularly those related to Trump,
+and understand the dynamics surrounding the election.
+The analysis revealed that the network's degree distribution followed a power law,
+with the subreddit "the_donald" playing a central role in connecting various subreddits.
+The network displayed characteristics of sparsity and randomness, as indicated by low clustering and assortativity coefficients.
+Measures of centrality, such as degree centrality, Pagerank and HITS, provided insights into the importance of different nodes.
+Community detection algorithms, such as Louvain and Authority Shifting, identified consistent and coherent communities within the network, allowing for observations at different levels of granularity.
+The network also showed vulnerability to node-targeted attacks, consistent with its underlying power-law distribution.
+Additionally, we explored network-based link prediction techniques, with the Resource Allocation method performing the best.
+However, the precision of all link prediction methods was low, likely due to the sparsity of the graph and the presence of nodes with only one link.
+Overall, the analysis highlighted the impact of the 2016 U.S. presidential election on subreddit interactions,
+particularly in relation to conspiracy theories.
+I hope this study could serve as a starting point for future developments, including the exploration of overlapping community detection
+algorithms and statistical methods of link prediction.
